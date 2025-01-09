@@ -104,8 +104,10 @@ export function Hashmap() {
   const remove = (key) => {
     const list = getList(key);
 
+    if (!list) return false;
+
     const index = list.findKey(key);
-    if (!index) return false;
+    if (index != null) return false;
 
     list.removeAt(index);
     return true;
