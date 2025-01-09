@@ -1,0 +1,12 @@
+{
+  "name": "hash-map",
+  "version": "1.0.0",
+  "description": "Hashmap from odin",
+  "main": "hash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brick",
+  "license": "ISC",
+  "type": "module"
+}
