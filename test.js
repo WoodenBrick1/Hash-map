@@ -25,3 +25,5 @@ console.log(test.entries());
 console.log(test.keys());
 console.log(test.values());
 console.log(test.get("lion"));
+console.log(test.has("ice cream"));
+console.log(test.has("NOPE"))

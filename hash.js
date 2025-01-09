@@ -88,13 +88,16 @@ export function Hashmap() {
   const get = (key) => {
     const list = getList(key);
 
+    if (!list) return null;
     return list.at(list.findKey(key)).value;
   }
 
   const has = (key) => {
     const list = getList(key);
 
-    if (list.findKey(key)) return true;
+    if (!list) return false;
+
+    if (list.findKey(key) !== null) return true;
     else return false;
   }
 
