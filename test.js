@@ -22,3 +22,6 @@ test.set('moon', 'silver');
 console.log(test.getCapacity());
 console.log(test.length());
 console.log(test.entries());
+console.log(test.keys());
+console.log(test.values());
+console.log(test.get("lion"));

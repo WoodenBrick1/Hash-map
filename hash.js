@@ -88,7 +88,7 @@ export function Hashmap() {
   const get = (key) => {
     const list = getList(key);
 
-    return list.at(list.findKey(key));
+    return list.at(list.findKey(key)).value;
   }
 
   const has = (key) => {
